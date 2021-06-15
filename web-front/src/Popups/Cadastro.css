@@ -6,6 +6,12 @@
     text-align:center;
 }
 
+.container h1 {
+    color: azure;
+    scrollbar-color: grey;
+    column-rule-style:dotted;
+}
+
 .button{
     background-color:rgb(208, 188, 212);
     padding: 10px 25px;
@@ -21,6 +27,7 @@
 
 .button:hover{
     background:#a74caf;
+    color:#fff;
 }
 
 .popup{

@@ -2,5 +2,5 @@ body {
     height: 100vh;
     text-align: center;
     margin: 0px;
-    background: linear-gradient(to top left, #B2A9D6, #A1C3E8);
+    background: linear-gradient(to top left, #A1C3E8, #B2A9D6, #A1C3E8, #B2A9D6);
   }
