@@ -10,13 +10,12 @@ class Header extends React.Component{
                         <img src={brainlogo} alt="LOGO"></img>
                     </p>
                     <ul>
-                        <li><a href="Início">Início</a></li>
-                        <li><a href="Explorar">Explorar</a></li>
+                        <li><a href="Início">Plataforma Quiz</a></li>
+                        <li><a href="Meus quizzes">Meus Quizzes</a></li>
                     </ul>
                     <div className="logout">
                         <li><a href="Sair">Sair</a></li>
                     </div>
-
                 </nav>
             </header>
         );
