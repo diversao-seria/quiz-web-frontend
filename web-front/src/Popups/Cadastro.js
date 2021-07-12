@@ -6,14 +6,12 @@ class Cadastro extends React.Component{
     constructor(){
         super();
         this.state={
-            title:"Bem Vindo",
+            title:"Olá",
         };
     }
     render(){
         setTimeout(() => {this.setState({title: "Bem Vindo!"})},1000);
-        //setLogin = () => {
-          //  var 
-        //}
+
         return(
             <div className="container">
                 <div className="popup">
@@ -39,7 +37,7 @@ class Cadastro extends React.Component{
                             <div>
                                 <a href="#">Esqueci minha senha</a>
                             </div>
-                            <h2>ou</h2>
+                                <h2>ou</h2>
                             <div>
                                 <a href="#">Cadastre-se</a>
                             </div>

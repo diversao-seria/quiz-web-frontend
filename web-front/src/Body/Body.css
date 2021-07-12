@@ -1,6 +1,8 @@
 body {
-    height: 100vh;
+    width:1024px;
+    padding:10px;
     text-align: center;
-    margin: 0px;
-    background: linear-gradient(to top left, #A1C3E8, #B2A9D6, #A1C3E8, #B2A9D6);
+    font-size:14px;
+    margin: auto;
+    background: linear-gradient(to left, #A1C3E8,#B2A9D6);
   }
