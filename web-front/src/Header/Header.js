@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
-import brainlogo from "../Assets/brainlogo.png";
+import quizle_transp from "../Assets/quizle_transp.png";
 class Header extends React.Component{
     render(){
         return(
                 <div className="nav">
-                    <img src={brainlogo} alt="LOGO"></img>
+                    <img src={quizle_transp} alt="LOGO"></img>
                         <ul>
                            <li>
                                 <a href="Início">Plataforma Quiz</a>
